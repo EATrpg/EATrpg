@@ -1,0 +1,159 @@
+body{
+	background-color:#C0C0C0
+	 }
+
+.jumbotron{
+ background-image: url(‘images/fantasy-782001_1920.jpg’);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: Courier;
+ font-weight: bolder;
+ color: #FFFFFF;
+} /* Code solution by PAVEL MALOS https://www.creative-tim.com/blog/web-design/bootstrap-background-image/ */
+
+.head-foot{
+	color: #FFFFFF;
+	font-size: 80%;
+	text-align: right;
+}
+
+body{
+	position: relative; 
+}
+
+.list-group{
+    position: sticky; 
+    top: 15px;
+}
+
+footer a{
+	color: #00008b;
+	font-weight: bold;
+}
+
+p a{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+a:link {
+  	text-decoration: none;
+}
+
+a:visited {
+	color: #C34723;
+  	text-decoration: none;
+}
+
+a:hover{
+	color:#00008b;
+}
+
+h1 {
+	font-size: 250%; 
+	text-align: right;
+}
+
+p {
+	color:#000000;
+	font-size: 100%;
+}
+
+h2 {
+	color:#8A3324; 
+	font-family: Courier;
+	font-size: 225%;
+	font-weight: bolder;
+}
+
+h3{
+	color:#C35214;
+}
+li {
+	font-style: italic;
+	line-height: 150%;
+}
+
+
+
+ul li.dungeon{
+	list-style-type: none;
+}
+
+ul li.dungeon::before{
+  content: "\f6d9";
+  font-family: "FontAwesome";
+}
+
+ul li.wizhat{
+	list-style-type: none;
+}
+
+ul li.wizhat::before{
+  content: "\f6e8";
+  font-family: "FontAwesome";
+}
+
+ul li.d20{
+	list-style-type: none;
+}
+
+ul li.d20::before{
+  content: "\f6cf";
+  font-family: "FontAwesome";
+}
+
+
+ul li.scroll{
+	list-style-type: none;
+}
+
+ul li.scroll::before{
+  content: "\f70e";
+  font-family: "FontAwesome";
+}
+
+ul li.vg{
+	list-style-type: none;
+}
+
+ul li.vg::before{
+  content: "\f11b";
+  font-family: "FontAwesome";
+}
+
+ul li.dragon{
+	list-style-type: none;
+}
+
+ul li.dragon::before{
+  content: "\f6d5";
+  font-family: "FontAwesome";
+}
+
+#post{
+	margin-top:30px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 30px;
+}
+
+img.float-right{
+	width: 50%;
+	margin-left: 10px;
+}
+
+img.float-left{
+	width: 50%;
+	padding: 20px 20px;
+}
+
+img.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+
